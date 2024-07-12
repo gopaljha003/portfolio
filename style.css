@@ -1,0 +1,284 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100;
+  width: 100;
+}
+.main {
+  background-color: #e5e5e5;
+  padding-inline: 5rem;
+  padding-block: 10px;
+  width: 100%;
+}
+
+/* #14213d */
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-block: 10px;
+  color: #14213d;
+}
+.logo h1 {
+  letter-spacing: -2px;
+  font-weight: 300;
+  font-family: "Playwrite AU QLD", cursive;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  list-style-type: none;
+}
+.list a {
+  text-decoration: none;
+  color: #14213d;
+}
+.list li {
+  font-size: 20px;
+  margin-inline: 25px;
+  font-family: "Roboto", cursive;
+  font-weight: 400;
+}
+.about {
+  width: 50%;
+}
+.socialmedia {
+  width: 75%;
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+.socialmedia a {
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+
+.instagram,
+.youtube,
+.google,
+.twitter,
+.linkedin,
+.facebook,
+.github {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: none;
+}
+
+.instagram {
+  background: #e4405f;
+}
+.youtube {
+  background-color: #ff0000;
+}
+.google {
+  background-color: #d14836;
+}
+.twitter {
+  background-color: #1da1f2;
+}
+.linkedin {
+  background-color: #0077b5;
+}
+.facebook {
+  background-color: #1877f2;
+}
+.github {
+  background-color: #181717;
+}
+.about{
+    padding-block: 8rem;
+    font-family: 'Roboto';
+    /* line-height: 5rem; */
+}
+.about h1{
+    color: #14213d;
+    font-size: 4rem;
+    margin-bottom: 2rem ;   
+    
+}
+.about h2{
+    color: #14213d;
+    font-size: 2rem;
+    margin-bottom: 20px ;
+}
+.about p{
+    width: 90%;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #5a6377;
+    line-height:2.5rem;
+    margin-bottom: 25px ;
+}
+.followbtn{
+    margin-top: 25px;
+    background-color: #14213d;
+    padding-block: 1rem;
+    width: 43%;
+    border-radius: 7px;
+    text-align: center;
+    cursor: pointer;
+}
+.followbtn a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+}
+.section1{
+    display: flex;
+}
+
+.section2{
+    width: 100%;
+    height: 90vh;
+    margin-top: 125px;
+    /* background-color: aqua; */
+}
+.subsection2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatido{
+    width: 77%;
+    height: 100%;
+    padding-inline: 20px;
+    
+}
+.whatido img{
+    height: 45px;
+    width: 45px;
+}
+.imgforwhatido{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+    
+    gap: 10px;
+    margin-block: 40px;
+}
+.whatido h3 ,.backend h1 ,.uiux h1  {
+    font-family: 'Roboto';
+    font-size: 3rem;
+    text-align: start;
+    color:#14213d ;
+    font-weight: 400;
+    padding-top: 25px;
+}
+.section2 h1{
+    font-family: 'Roboto';
+    text-align: center; 
+    font-size: 60px;
+    color:#14213d ;
+    font-weight: 500;
+}
+.subsection2{
+  display: flex;
+  align-items: flex-start;
+
+}
+.whatido p , .backend p , .uiux p  {
+    font-family: 'Roboto';
+    text-align: center;
+    text-align: start;
+    font-size: 1.2rem;
+    line-height: 2.25rem;
+    color: #5a6377;
+}
+.whatido .android{
+    height: 55px;
+    width: 55px;
+}
+.ri-fire-fill{
+    color: #aa4203;
+}
+.section3{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:50px;
+}
+
+.backend{
+    height: 100%;
+    width: 50%;
+}
+
+.section4{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.uiux{
+    height: 100%;
+    width: 50%;
+}
+.section5{
+    width: 100%;
+    padding: 0.5rem;
+
+}
+
+.section5 h4{
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 1.5rem;
+    color: #5a6377;
+    font-weight: 450;
+
+}
+
+.section1 .img1 {
+  width: 50%;
+  padding-top: 100px;
+}
+.subsection2 .img2 img {
+  width: 100%;
+  margin: 0;
+  margin-top: 200px;
+  /* height: 50vh; */
+  /* padding-top: 200px; */
+}
+.section3 .img3 img {
+  /* background-color: yellow; */
+  width: 75%;
+}
+
+.section4 .img4 img {
+  /* background-color: yellow; */
+  width: 75%;
+  padding-top: 100px;
+}
+.ri-heart-fill{
+ color: rgba(90, 99, 119);
+}
